@@ -15,9 +15,6 @@
 2번 문항:
     { title: string, menu: string[] } 타입을 생성하세요.
 
-*/
-
-/*
 3번 문항:
     axios 모듈을 import하고, 웅도 Meal API를 사용하여 원하는 날짜의 중식 메뉴를 출력하는 함수를 생성하고 export 구문을 사용하여 내보낸 다음,
     ../index.ts 파일에서 fetchMeal('2021-03-02')를 비동기로 호출하세요.
@@ -122,3 +119,12 @@ export const fibo = (x: number): number => {
 
 
 // 7번 문항
+export const LCM = (n1: number, n2: number): number => {
+    let lar = Math.max(n1, n2);
+    let small = Math.min(n1, n2);
+    let i = lar;
+    while(i % small !== 0){
+      i += lar;
+    }
+    return i;
+  }

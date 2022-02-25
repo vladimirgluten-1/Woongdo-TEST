@@ -1,6 +1,7 @@
 import {
     array,
     fibo,
+    LCM
 
 }from './problem';
 
@@ -27,7 +28,9 @@ console.log(array)
 console.log(fibo(35))
 
 // 7번 문항
-
+console.log(LCM(15, 21))
+console.log(LCM(33, 22))
+console.log(LCM(9, 10))
 /**
  * [결과가 아래와 같아야합니다.]
  * ==========================
