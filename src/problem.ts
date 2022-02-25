@@ -100,5 +100,25 @@ export const funcPackage = {
 }
 
 // 6번 문항
+export const fibo = (x: number): number => {
+    if (x < 1) {
+        return;
+      }
+    
+      if (x === 1) {
+        return x;
+      }
+    
+      let currentValue = 1;
+      let previousValue = 0;
+    
+      for (let i = 2; i <= x; i++) {
+        currentValue += previousValue;
+        previousValue = currentValue - previousValue;
+      }
+    
+      return currentValue;
+}
+
 
 // 7번 문항

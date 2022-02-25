@@ -1,5 +1,6 @@
 import {
     array,
+    fibo,
 
 }from './problem';
 
@@ -23,6 +24,7 @@ console.log(array)
 
 
 // 6번 문항
+console.log(fibo(35))
 
 // 7번 문항
 
