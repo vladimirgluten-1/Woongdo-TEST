@@ -1,14 +1,23 @@
+
+
 /*
 0번 문항:
     `let`과 `var`, `const`의 차이점에 대해서 말해주세요.
+//const는 고정된 상수이고, var과 let의 공통점는 둘다 Hoisting이 되나, var은 Hoisting할 때, 값 할당을 하지 않아 Undefined로 출력됩니다. 허나, let는 Error를 출력합니다. 
+//이 이유는 let의 창조 이유가 var의 Hoisting system이 긴/복잡한 코드에서는 개발적 차원에는 불편하기 때문에 let를 소개하였다.
 
 1번 문항:
     Array<number>타입인 [1, 2, 3] 배열을 생성하고 export 구문을 사용하여 내보낸 다음,
     ../index.ts 파일에서 데이터 내용을 제곱하고, 내림차순 정렬하여 출력하세요.
+    */
 
+/*
 2번 문항:
     { title: string, menu: string[] } 타입을 생성하세요.
 
+*/
+
+/*
 3번 문항:
     axios 모듈을 import하고, 웅도 Meal API를 사용하여 원하는 날짜의 중식 메뉴를 출력하는 함수를 생성하고 export 구문을 사용하여 내보낸 다음,
     ../index.ts 파일에서 fetchMeal('2021-03-02')를 비동기로 호출하세요.
@@ -51,13 +60,15 @@
     ../index.ts 파일에서 fibo(35) 값을 출력하세요.
     [조건: 코드 수행 시간이 10ms 안팎이어야함.]
 
+
 7번 문항:
     최소공배수를 구하는 함수를 작성하여 export 구문을 사용하여 내보낸 다음,
     ../index.ts 파일에서 LCM(15, 21), LCM(33, 22), LCM(9, 10) 값을 출력하세요.
+
 */
 
 // 1번 문항
-
+export const array: Array<number> = [1, 2, 3]
 // 2번 문항
 
 // 3번 문항

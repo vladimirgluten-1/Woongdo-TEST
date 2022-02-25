@@ -1,10 +1,26 @@
+import {
+    array,
+
+}from './problem';
+
+
+
 // 1번 문항
+
+for(var i =0;i<3;i++){
+    array[i] = array[i]**2;
+}
+array.sort();
+console.log(array)
+
+// 2번 문항
 
 // 3번 문항
 
 // 4번 문항
 
 // 5번 문항
+
 
 // 6번 문항
 
