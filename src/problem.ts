@@ -65,7 +65,7 @@
 */
 
 // 1번 문항
-export const array: Array<number> = [1, 2, 3]
+export const array: Array<number> = [1, 2, 3];
 // 2번 문항
 
 // 3번 문항
@@ -90,8 +90,8 @@ export const funcPackage = {
         await delay(2000);
         return new Promise((res, rej) => {
             if (decision)
-                return res('🍳')
-            return rej('🐣')
+                return res('🍳');
+            return rej('🐣');
         })
     }
 }

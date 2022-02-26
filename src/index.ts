@@ -13,7 +13,7 @@ for(var i =0;i<3;i++){
     array[i] = array[i]**2;
 }
 array.sort();
-console.log(array)
+console.log(array);
 
 // 2번 문항
 
@@ -25,12 +25,12 @@ console.log(array)
 
 
 // 6번 문항
-console.log(fibo(35))
+console.log(fibo(35));
 
 // 7번 문항
-console.log(LCM(15, 21))
-console.log(LCM(33, 22))
-console.log(LCM(9, 10))
+console.log(LCM(15, 21));
+console.log(LCM(33, 22));
+console.log(LCM(9, 10));
 /**
  * [결과가 아래와 같아야합니다.]
  * ==========================
